@@ -22,7 +22,7 @@ def introduce():
 
 @app.route("/UCAN")
 def UCAN():
-    return render_template("UCAN.html", name=user)
+    return render_template("UCAN.html")
 
 @app.route("/autobiography")
 def autobiography():
